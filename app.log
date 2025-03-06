@@ -14,3 +14,6 @@
 2025-03-06 15:03:53,784 - INFO - 127.0.0.1 - - [06/Mar/2025 15:03:53] "DELETE /issues/1 HTTP/1.1" 200 -
 2025-03-06 15:39:31,573 - INFO -  * Detected change in 'D:\\Kodak\\Projects\\Python\\issue-tracker\\routes.py', reloading
 2025-03-06 15:39:31,721 - INFO -  * Restarting with stat
+2025-03-06 16:22:27,866 - INFO - Serving on http://0.0.0.0:8000
+2025-03-06 16:23:05,700 - INFO - Serving on http://0.0.0.0:8000
+2025-03-06 16:36:18,462 - INFO - Serving on http://0.0.0.0:8000

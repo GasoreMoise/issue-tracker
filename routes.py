@@ -5,7 +5,13 @@ import logging
 
 # Initialize Flask app
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///issues.db'
+
+# Configure database
+database_url = os.environ.get('DATABASE_URL', 'sqlite:///issues.db')
+# Render uses Postgres, which needs postgresql:// instead of postgres://
+if database_url.startswith('postgres://'):
+    database_url = database_url.replace('postgres://', 'postgresql://', 1)
+app.config['SQLALCHEMY_DATABASE_URI'] = database_url
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Configure logging
