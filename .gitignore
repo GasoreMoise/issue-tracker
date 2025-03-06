@@ -19,7 +19,11 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-
+# Add these to your existing .gitignore
+.env
+*.db
+__pycache__/
+instance/
 # Virtual Environment
 venv/
 ENV/
