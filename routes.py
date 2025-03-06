@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from models import db, Issue
 import os
 import logging
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
 
 # Configure database
 database_url = os.environ.get('DATABASE_URL', 'sqlite:///issues.db')
