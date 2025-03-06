@@ -1,0 +1,16 @@
+2025-03-06 14:56:29,338 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 14:56:29,339 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 14:56:29,341 - INFO -  * Restarting with stat
+2025-03-06 14:56:30,824 - WARNING -  * Debugger is active!
+2025-03-06 14:56:30,829 - INFO -  * Debugger PIN: 885-612-642
+2025-03-06 14:56:57,509 - INFO - Issue created successfully for customer: John Doe
+2025-03-06 14:56:57,516 - INFO - 127.0.0.1 - - [06/Mar/2025 14:56:57] "[35m[1mPOST /issues HTTP/1.1[0m" 201 -
+2025-03-06 14:57:13,254 - INFO - 127.0.0.1 - - [06/Mar/2025 14:57:13] "GET /issues HTTP/1.1" 200 -
+2025-03-06 15:02:24,646 - INFO - 127.0.0.1 - - [06/Mar/2025 15:02:24] "PUT /issues/1 HTTP/1.1" 200 -
+2025-03-06 15:02:50,661 - INFO - 127.0.0.1 - - [06/Mar/2025 15:02:50] "GET /docs/network_issue HTTP/1.1" 200 -
+2025-03-06 15:03:26,100 - INFO - 127.0.0.1 - - [06/Mar/2025 15:03:26] "GET /report/issues HTTP/1.1" 200 -
+2025-03-06 15:03:43,392 - INFO - 127.0.0.1 - - [06/Mar/2025 15:03:43] "[33mDELETE /report/issues/1 HTTP/1.1[0m" 404 -
+2025-03-06 15:03:53,784 - INFO - 127.0.0.1 - - [06/Mar/2025 15:03:53] "DELETE /issues/1 HTTP/1.1" 200 -
+2025-03-06 15:39:31,573 - INFO -  * Detected change in 'D:\\Kodak\\Projects\\Python\\issue-tracker\\routes.py', reloading
+2025-03-06 15:39:31,721 - INFO -  * Restarting with stat
